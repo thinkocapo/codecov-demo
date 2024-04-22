@@ -102,7 +102,7 @@ export class Calculator {
         return integerDisplay
       }
     }
-  
+    //test
     updateDisplay() {
       this.currentOperandTextElement.innerText =
         this.getDisplayNumber(this.currentOperand)
